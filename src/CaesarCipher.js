@@ -5,7 +5,7 @@ const encryptBtn = document.querySelector('.encryptBtn');
 var mode = "ceaser";
 var shift = 13;
 var encrypted;
-const encrypt = (text,shift) => {
+export const encrypt = (text,shift) => {
     var result = "";
     if (mode == "ceaser"){
  
