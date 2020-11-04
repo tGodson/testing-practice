@@ -5,7 +5,7 @@ const encryptBtn = document.querySelector('.encryptBtn');
 var mode = "ceaser";
 var shift = 13;
 var encrypted;
-function encrypt(text,shift) {
+const encrypt = (text,shift) => {
     var result = "";
     if (mode == "ceaser"){
  
@@ -39,7 +39,7 @@ function encrypt(text,shift) {
     }
 }
 
-function decrypt(text,shift){
+const decrypt = (text,shift) => {
     var result = "";
     shift = (26 - shift) % 26;
     result = encrypt(text,shift);
