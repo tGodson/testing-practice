@@ -1,8 +1,11 @@
-const arrey = [1,8,3,4,2,6];
-let sum=0;
-let object;
+// const arrey = [1,8,3,4,2,6];
+// let sum=0;
+// let object;
 
-export const analyze = (ar) => {
+// export const analyze = (ar) => {
+const analyze = (ar) => {
+   let sum = 0;
+   let object;
     for(let i = 0;i<ar.length;i++){
         sum += ar[i];
     }
@@ -14,3 +17,5 @@ export const analyze = (ar) => {
       length: ar.length
     };
 }
+
+module.exports = analyze

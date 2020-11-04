@@ -1,15 +1,20 @@
-export const add = (a,b) => {
+const calculator = {
+ add (a,b){
     return a + b;
-}
+},
 
-export const subtract = (a,b) => {
+subtract (a,b) {
     return a - b;
-}
+},
 
-export const multiply = (a,b) => {
+ multiply (a,b){
     return a * b;
-}
+},
 
-export const divide = (a,b) => {
+ divide (a,b) {
     return a / b;
-}
+},
+
+};
+
+module.exports = calculator;
