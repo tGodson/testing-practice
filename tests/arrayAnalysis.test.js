@@ -1,4 +1,3 @@
-//import { analyze } from '../src/arrayAnalysis';
 const analyze = require('../src/arrayAnalysis');
 
 test('analysis of [1, 2, 3, 4])', () => {
