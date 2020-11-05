@@ -10,7 +10,7 @@ test('analysis of [1, 2, 3, 4])', () => {
 });
 
 test('analysis of empty array', () => {
-  expect(arrayAnalysis([])).toEqual({
+  expect(analyze([])).toEqual({
     average: NaN, min: Infinity, max: -Infinity, length: 0,
   });
 });
