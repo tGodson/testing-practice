@@ -1,16 +1,19 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-plusplus */
+/* eslint-disable no-return-assign */
 const analyze = (ar) => {
-   let sum = 0;
-   let object;
-    for(let i = 0;i<ar.length;i++){
-        sum += ar[i];
-    }
+  let sum = 0;
+  let object;
+  for (let i = 0; i < ar.length; i++) {
+    sum += ar[i];
+  }
 
-    return object = {
-      average: sum/ar.length,
-      min: Math.min.apply(null, ar),
-      max: Math.max.apply(null, ar),
-      length: ar.length
-    };
-}
+  return object = {
+    average: sum / ar.length,
+    min: Math.min.apply(null, ar),
+    max: Math.max.apply(null, ar),
+    length: ar.length,
+  };
+};
 
-module.exports = analyze
+module.exports = analyze;
